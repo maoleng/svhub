@@ -71,6 +71,10 @@
                             </li>
 
                             <li class="with-megamenu">
+                                <a href="{{ route('job.index') }}">Job</a>
+                            </li>
+
+                            <li class="with-megamenu">
                                 <a href="#">About</a>
                             </li>
 

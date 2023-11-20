@@ -3,9 +3,15 @@
 namespace Database\Seeders;
 
 // use Illuminate\Database\Console\Seeds\WithoutModelEvents;
+use App\Enums\JobType;
+use App\Enums\PostCategory;
+use App\Enums\PostTag;
 use App\Enums\UserRole;
+use App\Models\Company;
 use App\Models\Course;
+use App\Models\Job;
 use App\Models\Lecture;
+use App\Models\Post;
 use App\Models\Question;
 use App\Models\User;
 use Faker\Factory as Faker;
@@ -29,6 +35,96 @@ class DatabaseSeeder extends Seeder
         $this->createCourses(50);
         $this->createLectures();
         $this->createQuestions();
+        $this->createPosts(1);
+        $this->createCompanies();
+        $this->createJobs(50);
+    }
+
+    public function createJobs($count)
+    {
+        $company_ids = Company::query()->inRandomOrder()->get()->pluck('id')->toArray();
+        $tech_tags = [
+            'NodeJS', 'PHP', 'AWS', 'MySQL', 'Laravel', 'OOP', 'Software Architecture', 'Javascript', 'Java', 'Asp NET MVC',
+        ];
+        $finance_tags = [
+            'Accounting/Auditing', 'General Accounting', 'Finance and Accounting', 'Tax', 'Accounting', 'Financial Reporting',
+        ];
+
+        $jobs = [];
+        for ($i = 3; $i <= $count; $i++) {
+            $title = $this->faker->jobTitle;
+            $jobs[] = [
+                'id' => Str::uuid(),
+                'title' => $title,
+                'slug' => Str::slug($title),
+                'location' => 'District '.random_int(1, 10),
+                'type' => JobType::getRandomValue(),
+                'tags' => json_encode($this->faker->randomElements(random_int(0, 1) === 0 ? $tech_tags : $finance_tags, random_int(3, 5))),
+                'salary' => random_int(10, 50) * 1000000,
+                'description' => preg_replace('/<input.*">/U', '', $this->faker->randomHtml(10, 10)),
+                'size' => '1000+',
+                'country' => 'Viet Nam',
+                'working_time' => 'Monday - Friday',
+                'company_id' => $this->faker->randomElement($company_ids),
+                'created_at' => $this->faker->dateTimeBetween('-1 year'),
+            ];
+        }
+
+        Job::query()->insert($jobs);
+    }
+
+    public function createCompanies()
+    {
+        $companies = [
+            [
+                'name' => 'CHAILEASE',
+                'avatar' => 'https://images.vietnamworks.com/logo/chailease_vip_111632.jpg',
+            ],
+            [
+                'name' => 'TEK EXPERTS',
+                'avatar' => 'https://images.vietnamworks.com/logo/tekex_vip1_101558.png',
+            ],
+            [
+                'name' => 'NGÂN HÀNG TMCP BẮC Á',
+                'avatar' => 'https://images.vietnamworks.com/logo/bacabank_vip1_117492.png',
+            ],
+            [
+                'name' => 'TẬP ĐOÀN CITYLAND',
+                'avatar' => 'https://images.vietnamworks.com/logo/cityland_vip_124712.png',
+            ],
+            [
+                'name' => 'CAPGEMINI VIỆT NAM',
+                'avatar' => 'https://images.vietnamworks.com/logo/capge_vip_124731.png',
+            ],
+        ];
+        $companies = array_map(function ($company) {
+            $company['id'] = Str::uuid();
+            $company['created_at'] = $this->faker->dateTimeBetween('-1 year');
+            return $company;
+        }, $companies);
+
+        Company::query()->insert($companies);
+    }
+
+    public function createPosts($count)
+    {
+        $user_ids = User::query()->inRandomOrder()->get()->pluck('id')->toArray();
+        $posts = [];
+        for ($i = 1; $i <= $count; $i++) {
+            $title = $this->faker->sentence;
+            $posts[] = [
+                'id' => Str::uuid(),
+                'title' => $title,
+                'slug' => Str::slug($title),
+                'content' => preg_replace('/<input.*">/U', '', $this->faker->randomHtml(10, 10)),
+                'user_id' => $this->faker->randomElement($user_ids),
+                'category' => PostCategory::getRandomValue(),
+                'tag' => PostTag::getRandomValue(),
+                'created_at' => $this->faker->dateTimeBetween('-1 year'),
+            ];
+        }
+
+        Post::query()->insert($posts);
     }
 
     public function createQuestions()
