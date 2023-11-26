@@ -10,7 +10,7 @@ class ForumController extends Controller
 
     public function index()
     {
-        $posts = Post::query()->with('user')->get();
+        $posts = Post::query()->with('user')->paginate();
 
         return view('forum.index', [
             'posts' => $posts,
