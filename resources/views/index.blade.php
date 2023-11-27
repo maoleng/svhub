@@ -226,7 +226,7 @@
                                         </div>
                                         <div class="content">
                                             <span class="rbt-badge-6 bg-secondary-opacity">Hello! Web Development Course</span>
-                                            <h2 class="title mt--10">Complete app development course with HiStudy</h2>
+                                            <h2 class="title mt--10">Complete app development course with SVHub</h2>
                                             <p>The idea of establishing a private university to provide quality education at an affordable cost in Uk London.</p>
                                             <ul class="course-feature-list">
                                                 <li>
