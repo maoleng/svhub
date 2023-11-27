@@ -98,7 +98,7 @@
                                         </div>
                                         <div class="admin-info">
                                             <span class="name">{{ authed()->name }}</span>
-                                            <a class="rbt-btn-link color-primary" href="#">View Profile</a>
+                                            <a class="rbt-btn-link color-primary" href="{{ route('user.index') }}">View Profile</a>
                                         </div>
                                     </div>
                                     <ul class="user-list-wrapper">

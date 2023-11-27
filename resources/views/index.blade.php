@@ -188,6 +188,306 @@
             </div>
         </div>
     </div>
+
+    <div class="rbt-course-banner-area rbt-section-gap bg-color-darker">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="inner">
+                        <div class="section-title text-center mb--60">
+                            <h2 class="title color-white"><span class="theme-gradient">Complete guideline</span> from absolute <br /> beginners to getting hired.</h2>
+                            <div class="rbt-button-group mt--30">
+                                <a class="rbt-btn btn-gradient hover-icon-reverse" href="#">
+                                    <span class="icon-reverse-wrapper">
+                                        <span class="btn-text">Explore Course</span>
+                                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                    </span>
+                                </a>
+
+                                <a class="rbt-btn hover-icon-reverse btn-border color-white-off" href="#">
+                                    <span class="icon-reverse-wrapper">
+                                        <span class="btn-text">Hired List</span>
+                                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                    <span class="btn-icon"><i class="feather-arrow-right"></i></span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="row g-5">
+
+                            <!-- Start Single Feature Box  -->
+                            <div class="col-lg-12">
+                                <div class="modern-course-features-box h-100">
+                                    <div class="inner">
+                                        <div class="thumbnail">
+                                            <img src="assets/images/course/single-course-02.jpg" alt="Image">
+                                        </div>
+                                        <div class="content">
+                                            <span class="rbt-badge-6 bg-secondary-opacity">Hello! Web Development Course</span>
+                                            <h2 class="title mt--10">Complete app development course with HiStudy</h2>
+                                            <p>The idea of establishing a private university to provide quality education at an affordable cost in Uk London.</p>
+                                            <ul class="course-feature-list">
+                                                <li>
+                                                    <div class="icon">
+                                                        <img src="assets/images/icons/card-icon-1.png" alt="Image Icon">
+                                                    </div>
+                                                    <div class="feature-content">
+                                                        <h4 class="featute-title">300K+ <span>Got Hired</span></h4>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <img src="assets/images/icons/card-icon-4.png" alt="Image Icon">
+                                                    </div>
+                                                    <div class="feature-content">
+                                                        <h4 class="featute-title">10K+ <span>Enrolled</span></h4>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <img src="assets/images/icons/card-icon-2.png" alt="Image Icon">
+                                                    </div>
+                                                    <div class="feature-content">
+                                                        <h4 class="featute-title">300K+ <span>Month Required</span></h4>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature Box  -->
+
+                            <!-- Start Single Feature Box  -->
+                            <div class="col-lg-6">
+                                <div class="modern-course-features-box one-colume-grid h-100">
+                                    <div class="inner">
+                                        <div class="thumbnail">
+                                            <img src="assets/images/course/single-course-06.jpg" alt="Image">
+                                        </div>
+                                        <div class="content">
+                                            <h2 class="title">Get a Certificate</h2>
+                                            <p>Apply for Admission in Post Graduate Diploma. Application Deadline: 26th September year Undergraduate.</p>
+                                            <ul class="course-feature-list">
+                                                <li>
+                                                    <div class="icon">
+                                                        <img src="assets/images/icons/card-icon-11.png" alt="Image Icon">
+                                                    </div>
+                                                    <div class="feature-content">
+                                                        <h4 class="featute-title">5000+ <span>Get Award</span></h4>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="icon">
+                                                        <img src="assets/images/icons/card-icon-12.png" alt="Image Icon">
+                                                    </div>
+                                                    <div class="feature-content">
+                                                        <h4 class="featute-title">10K+ <span>Zero to career </span></h4>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature Box  -->
+
+                            <!-- Start Single Feature Box  -->
+                            <div class="col-lg-6">
+                                <div class="modern-course-features-box grid-content-reverse h-100">
+                                    <div class="inner">
+                                        <div class="rbt-image-gallery-wrapper">
+                                            <div class="swiper modern-course-carousel-activation rbt-arrow-between">
+                                                <div class="swiper-wrapper">
+                                                    <div class="swiper-slide">
+                                                        <div class="thumbnail mt--0">
+                                                            <img src="assets/images/course/single-course-07.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="thumbnail mt--0">
+                                                            <img src="assets/images/course/single-course-08.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                    <div class="swiper-slide">
+                                                        <div class="thumbnail mt--0">
+                                                            <img src="assets/images/course/single-course-09.jpg" alt="Image">
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="rbt-swiper-arrow rbt-arrow-left">
+                                                    <div class="custom-overfolow">
+                                                        <i class="rbt-icon feather-arrow-left"></i>
+                                                        <i class="rbt-icon-top feather-arrow-left"></i>
+                                                    </div>
+                                                </div>
+
+                                                <div class="rbt-swiper-arrow rbt-arrow-right">
+                                                    <div class="custom-overfolow">
+                                                        <i class="rbt-icon feather-arrow-right"></i>
+                                                        <i class="rbt-icon-top feather-arrow-right"></i>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="content">
+                                            <h2 class="title">Projects You Will Build</h2>
+                                            <p>Apply for Admission in Post Graduate Diploma. Application Deadline: 26th September year Undergraduate.</p>
+                                            <ul class="rbt-list-style-2 flex-wrap">
+                                                <li><i class="feather-check"></i>Ecommerce Website</li>
+                                                <li><i class="feather-check"></i>Travel Agency</li>
+                                                <li><i class="feather-check"></i>Shopping Cart</li>
+                                                <li><i class="feather-check"></i>News Portal</li>
+                                                <li><i class="feather-check"></i>Education Management</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Single Feature Box  -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="rbt-banner-area rbt-banner-8 variation-03 pb--40 section-bottom-overlay" id="home">
+        <div class="wrapper bg-color-secondary-alt">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-10 offset-lg-1">
+                        <div class="content">
+                            <div class="inner text-center">
+                                <div class="section-title">
+                                    <span class="subtitle bg-primary-opacity">Learning With Mentor!</span>
+                                </div>
+
+                                <div class="brand-area mt--60">
+                                    <span class="follow-us-text">Apply for contacting with mentor</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="banner-overlay-section">
+            <div class="container">
+                <div class="row row--15">
+                    <div class="col-lg-12">
+                        <div class="swiper team-slide-activation-4 rbt-arrow-between rbt-dot-bottom-center">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="team team-style--bottom variation-2">
+                                        <div class="thumbnail">
+                                            <a href="#"><img src="assets/images/team/team-06.jpg" alt="Blog Images"></a>
+                                        </div>
+                                        <div class="content">
+                                            <div class="inner">
+                                                <h4 class="title"><a href="#">Aaron Griffe</a></h4>
+                                                <p class="designation">Depertment Head</p>
+                                            </div>
+                                            <div class="icon-right">
+                                                <a href="#"><i class="feather-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team team-style--bottom variation-2">
+                                        <div class="thumbnail">
+                                            <a href="#"><img src="assets/images/team/team-07.jpg" alt="Blog Images"></a>
+                                        </div>
+                                        <div class="content">
+                                            <div class="inner">
+                                                <h4 class="title"><a href="#">Aaron Griffe</a></h4>
+                                                <p class="designation">Teacher</p>
+                                            </div>
+                                            <div class="icon-right">
+                                                <a href="#"><i class="feather-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team team-style--bottom variation-2">
+                                        <div class="thumbnail">
+                                            <a href="#"><img src="assets/images/team/team-08.jpg" alt="Blog Images"></a>
+                                        </div>
+                                        <div class="content">
+                                            <div class="inner">
+                                                <h4 class="title"><a href="#">Joe Bidden</a></h4>
+                                                <p class="designation">Depertment Head</p>
+                                            </div>
+                                            <div class="icon-right">
+                                                <a href="#"><i class="feather-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team team-style--bottom variation-2">
+                                        <div class="thumbnail">
+                                            <a href="#"><img src="assets/images/team/team-09.jpg" alt="Blog Images"></a>
+                                        </div>
+                                        <div class="content">
+                                            <div class="inner">
+                                                <h4 class="title"><a href="#">John Due</a></h4>
+                                                <p class="designation">Marketing SR</p>
+                                            </div>
+                                            <div class="icon-right">
+                                                <a href="#"><i class="feather-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="team team-style--bottom variation-2">
+                                        <div class="thumbnail">
+                                            <a href="#"><img src="assets/images/team/team-10.jpg" alt="Blog Images"></a>
+                                        </div>
+                                        <div class="content">
+                                            <div class="inner">
+                                                <h4 class="title"><a href="#">Joe Bidden</a></h4>
+                                                <p class="designation">Depertment Head</p>
+                                            </div>
+                                            <div class="icon-right">
+                                                <a href="#"><i class="feather-arrow-right"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="rbt-swiper-arrow rbt-arrow-left">
+                                <div class="custom-overfolow">
+                                    <i class="rbt-icon feather-arrow-left"></i>
+                                    <i class="rbt-icon-top feather-arrow-left"></i>
+                                </div>
+                            </div>
+
+                            <div class="rbt-swiper-arrow rbt-arrow-right">
+                                <div class="custom-overfolow">
+                                    <i class="rbt-icon feather-arrow-right"></i>
+                                    <i class="rbt-icon-top feather-arrow-right"></i>
+                                </div>
+                            </div>
+
+
+                            <div class="rbt-swiper-pagination"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- End Coding Quality Area  -->
     <!-- Start Advance Tab  -->
     <div class="rbt-advance-tab-area splash-layout-presentation pb--40 bg-color-white">
@@ -279,421 +579,130 @@
         </div>
     </div>
     <!-- End Advance Tab  -->
-    <!-- Start Course Presentation Area  -->
-    {{--
-    <div class="rbt-inner-page-layout-area bg-color-white rbt-section-gap rbt-shape-bg-area top-circle-shape-top">
-        --}}
-    {{--
-    <div class="wrapper position-relative overflow-hidden">
-        --}}
-    {{--
-    <div class="rbt-splite-style">
-        --}}
-    {{--
-    <div class="split-wrapper">
-        --}}
-    {{--
-    <div class="row g-0 align-items-center">
-        --}}
-    {{--
-    <div class="col-lg-12 col-xl-5 col-12">
-        --}}
-    {{--
-    <div class="swiper banner-splash-inner-layout-active rbt-arrow-between rbt-dot-bottom-center icon-bg-primary">
-        --}}
-    {{--
-    <div class="swiper-wrapper">
-        --}}
-    {{--                                    <!-- Start Single Slider  -->--}}
-    {{--
-    <div class="swiper-slide">
-        --}}
-    {{--
-    <div class="single-slide">
-        --}}
-    {{--
-    <div class="rbt-splash-inner-layout-inner">
-        --}}
-    {{--
-    <div class="thumbnail image-left-content">--}}
-    {{--                                                    <img src="assets/images/splash/innerlayout/course-layout-01.png" alt="split Images">--}}
-    {{--
-</div>
---}}
-    {{--
-    <div class="content text-center">
-        --}}
-    {{--
-    <h4 class="title">Course Layout One</h4>
-    --}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--                                    <!-- End Single Slider  -->--}}
-    {{--                                    <!-- Start Single Slider  -->--}}
-    {{--
-    <div class="swiper-slide">
-        --}}
-    {{--
-    <div class="single-slide">
-        --}}
-    {{--
-    <div class="rbt-splash-inner-layout-inner">
-        --}}
-    {{--
-    <div class="thumbnail image-left-content">--}}
-    {{--                                                    <img src="assets/images/splash/innerlayout/course-layout-02.png" alt="split Images">--}}
-    {{--
-</div>
---}}
-    {{--
-    <div class="content text-center">
-        --}}
-    {{--
-    <h4 class="title">Course Layout Two</h4>
-    --}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--                                    <!-- End Single Slider  -->--}}
-    {{--                                    <!-- Start Single Slider  -->--}}
-    {{--
-    <div class="swiper-slide">
-        --}}
-    {{--
-    <div class="single-slide">
-        --}}
-    {{--
-    <div class="rbt-splash-inner-layout-inner">
-        --}}
-    {{--
-    <div class="thumbnail image-left-content">--}}
-    {{--                                                    <img src="assets/images/splash/innerlayout/course-layout-03.png" alt="split Images">--}}
-    {{--
-</div>
---}}
-    {{--
-    <div class="content text-center">
-        --}}
-    {{--
-    <h4 class="title">Course Layout Three</h4>
-    --}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--                                    <!-- End Single Slider  -->--}}
-    {{--                                    <!-- Start Single Slider  -->--}}
-    {{--
-    <div class="swiper-slide">
-        --}}
-    {{--
-    <div class="single-slide">
-        --}}
-    {{--
-    <div class="rbt-splash-inner-layout-inner">
-        --}}
-    {{--
-    <div class="thumbnail image-left-content">--}}
-    {{--                                                    <img src="assets/images/splash/innerlayout/course-layout-04.png" alt="split Images">--}}
-    {{--
-</div>
---}}
-    {{--
-    <div class="content text-center">
-        --}}
-    {{--
-    <h4 class="title">Course Layout Four</h4>
-    --}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--                                    <!-- End Single Slider  -->--}}
-    {{--                                    <!-- Start Single Slider  -->--}}
-    {{--
-    <div class="swiper-slide">
-        --}}
-    {{--
-    <div class="single-slide">
-        --}}
-    {{--
-    <div class="rbt-splash-inner-layout-inner">
-        --}}
-    {{--
-    <div class="thumbnail image-left-content">--}}
-    {{--                                                    <img src="assets/images/splash/innerlayout/course-layout-05.png" alt="split Images">--}}
-    {{--
-</div>
---}}
-    {{--
-    <div class="content text-center">
-        --}}
-    {{--
-    <h4 class="title">Course Layout Five</h4>
-    --}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--                                    <!-- End Single Slider  -->--}}
-    {{--                                    <!-- Start Single Slider  -->--}}
-    {{--
-    <div class="swiper-slide">
-        --}}
-    {{--
-    <div class="single-slide">
-        --}}
-    {{--
-    <div class="rbt-splash-inner-layout-inner">
-        --}}
-    {{--
-    <div class="thumbnail image-left-content">--}}
-    {{--                                                    <img src="assets/images/splash/innerlayout/course-layout-06.png" alt="split Images">--}}
-    {{--
-</div>
---}}
-    {{--
-    <div class="content text-center">
-        --}}
-    {{--
-    <h4 class="title">Course Layout Six</h4>
-    --}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--                                    <!-- End Single Slider  -->--}}
-    {{--                                    <!-- Start Single Slider  -->--}}
-    {{--
-    <div class="swiper-slide">
-        --}}
-    {{--
-    <div class="single-slide">
-        --}}
-    {{--
-    <div class="rbt-splash-inner-layout-inner">
-        --}}
-    {{--
-    <div class="thumbnail image-left-content">--}}
-    {{--                                                    <img src="assets/images/splash/innerlayout/course-layout-07.png" alt="split Images">--}}
-    {{--
-</div>
---}}
-    {{--
-    <div class="content text-center">
-        --}}
-    {{--
-    <h4 class="title">Course Layout Seven</h4>
-    --}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--                                    <!-- End Single Slider  -->--}}
-    {{--
-</div>
---}}
-    {{--
-    <div class="rbt-swiper-pagination"></div>
-    --}}
-    {{--
-    <div class="rbt-swiper-arrow rbt-arrow-left">
-        --}}
-    {{--
-    <div class="custom-overfolow">--}}
-    {{--                                        <i class="rbt-icon feather-arrow-left"></i>--}}
-    {{--                                        <i class="rbt-icon-top feather-arrow-left"></i>--}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-    <div class="rbt-swiper-arrow rbt-arrow-right">
-        --}}
-    {{--
-    <div class="custom-overfolow">--}}
-    {{--                                        <i class="rbt-icon feather-arrow-right"></i>--}}
-    {{--                                        <i class="rbt-icon-top feather-arrow-right"></i>--}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-    <div class="col-lg-12 col-xl-6 col-12">
-        --}}
-    {{--
-    <div class="split-inner">
-        --}}
-    {{--                                <span class="rbt-badge-6 bg-primary-opacity">Course Showcase</span>--}}
-    {{--
-    <h4 class="title">Manage your courses in an authentic way.</h4>
-    --}}
-    {{--
-    <p class="description">Register your course in a minute.</p>
-    --}}
-    {{--
-    <div class="layout-format-image mb--20">--}}
-    {{--                                    <img src="assets/images/splash/icons/course-format.png" alt="post Images">--}}
-    {{--
-</div>
---}}
-    {{--
-    <h5 class="subtitle mb--20">Courses Feature List:</h5>
-    --}}
-    {{--
-    <div class="plan-offer-list-wrapper">
-        --}}
-    {{--
-    <ul class="plan-offer-list rbt-list-primary-opacity">
-        --}}
-    {{--
-    <li><i class="feather-check"></i> Convenience</li>
-    --}}
-    {{--
-    <li><i class="feather-check"></i> Flexibility</li>
-    --}}
-    {{--
-    <li><i class="feather-check"></i> Accessibility</li>
-    --}}
-    {{--
-    <li><i class="feather-check"></i> Cost-effective</li>
-    --}}
-    {{--
-    <li><i class="feather-check"></i> Self-paced</li>
-    --}}
-    {{--
-    <li><i class="feather-check"></i> Variety of subjects</li>
-    --}}
-    {{--
-</ul>
---}}
-    {{--
-    <ul class="plan-offer-list rbt-list-primary-opacity">
-        --}}
-    {{--
-    <li><i class="feather-check"></i> Personalized learning</li>
-    --}}
-    {{--
-    <li><i class="feather-check"></i> Engaging content</li>
-    --}}
-    {{--
-    <li><i class="feather-check"></i> Real-time feedback</li>
-    --}}
-    {{--
-    <li><i class="feather-check"></i> Global networking</li>
-    --}}
-    {{--
-    <li><i class="feather-check"></i> Improved digital skills</li>
-    --}}
-    {{--
-    <li><i class="feather-check"></i> 24/7 availability</li>
-    --}}
-    {{--
-</ul>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
-    {{--
-    <div class="top-circle-shape"></div>
-    --}}
-    {{--
-</div>
---}}
-    {{--
-    <div class="rbt-shape-bg">--}}
-    {{--            <img src="assets/images/splash/bg/left-right-line-small.svg" alt="Shape Images">--}}
-    {{--
-</div>
---}}
-    {{--
-</div>
---}}
     <!-- End Course Presentation Area  -->
+
+    <div class="rbt-service-area bg-color-extra2 rbt-section-gap pb--40">
+        <div class="container">
+            <div class="row mb--60">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <span class="subtitle bg-primary-opacity">EDUCATION FOR EVERYONE</span>
+                        <h2 class="title">Why Choose Us?</h2>
+                    </div>
+                </div>
+            </div>
+            <!-- Start Card Area -->
+            <div class="row row--15 mt_dec--30">
+                <!-- Start Single Card  -->
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                    <div class="rbt-flipbox">
+
+                        <div class="rbt-flipbox-wrap rbt-service rbt-service-1 card-bg-1">
+                            <div class="rbt-flipbox-front rbt-flipbox-face inner">
+                                <div class="icon">
+                                    <img src="assets/images/icons/card-icon-1.png" alt="card-icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"><a href="#">Best Coaching</a></h5>
+                                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima error reiciendis.</p>
+                                    <a class="rbt-btn-link stretched-link" href="#">Learn More<i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="rbt-flipbox-back rbt-flipbox-face inner">
+                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minima error reiciendis.</p>
+                                <a class="rbt-btn rbt-switch-btn btn-white btn-sm" href="#">
+                                    <span data-text="Learn More">Learn More</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Card  -->
+
+                <!-- Start Single Card  -->
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                    <div class="rbt-flipbox">
+                        <div class="rbt-flipbox-wrap rbt-service rbt-service-1 card-bg-2">
+                            <div class="rbt-flipbox-front rbt-flipbox-face inner">
+                                <div class="icon">
+                                    <img src="assets/images/icons/card-icon-2.png" alt="card-icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"><a href="#">Convenient practice</a></h5>
+                                    <p>Convenient practice dolor sit adipisicing elit. Minima error reiciendis.</p>
+                                    <a class="rbt-btn-link stretched-link" href="#">Learn More<i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="rbt-flipbox-back rbt-flipbox-face inner">
+                                <p>Convenient practice dolor sit adipisicing elit. Minima error reiciendis.</p>
+                                <a class="rbt-btn rbt-switch-btn btn-white btn-sm" href="#">
+                                    <span data-text="Learn More">Learn More</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Card  -->
+
+                <!-- Start Single Card  -->
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                    <div class="rbt-flipbox">
+                        <div class="rbt-flipbox-wrap rbt-service rbt-service-1 card-bg-3">
+                            <div class="rbt-flipbox-front rbt-flipbox-face inner">
+                                <div class="icon">
+                                    <img src="assets/images/icons/card-icon-3.png" alt="card-icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"><a href="#">Video Lecture</a></h5>
+                                    <p>Video Lecture sit, amet consectetur adipisicing elit. Minima error reiciendis.</p>
+                                    <a class="rbt-btn-link stretched-link" href="#">Learn More<i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="rbt-flipbox-back rbt-flipbox-face inner">
+                                <p>Video Lecture sit, amet consectetur adipisicing elit. Minima error reiciendis.</p>
+                                <a class="rbt-btn rbt-switch-btn btn-white btn-sm" href="#">
+                                    <span data-text="Learn More">Learn More</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Card  -->
+
+                <!-- Start Single Card  -->
+                <div class="col-xl-3 col-md-6 col-sm-6 col-12 mt--30">
+                    <div class="rbt-flipbox">
+                        <div class="rbt-flipbox-wrap rbt-service rbt-service-1 card-bg-4">
+                            <div class="rbt-flipbox-front rbt-flipbox-face inner">
+                                <div class="icon">
+                                    <img src="assets/images/icons/card-icon-4.png" alt="card-icon">
+                                </div>
+                                <div class="content">
+                                    <h5 class="title"><a href="#">Live Class</a></h5>
+                                    <p>Live Class dolor sit, amet consectetur adipisicing elit. Minima error reiciendis.</p>
+                                    <a class="rbt-btn-link stretched-link" href="#">Learn More<i class="feather-arrow-right"></i></a>
+                                </div>
+                            </div>
+
+                            <div class="rbt-flipbox-back rbt-flipbox-face inner">
+                                <p>Live Class dolor sit, amet consectetur adipisicing elit. Minima error reiciendis.</p>
+                                <a class="rbt-btn rbt-switch-btn btn-white btn-sm" href="#">
+                                    <span data-text="Learn More">Learn More</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Single Card  -->
+
+            </div>
+            <!-- End Card Area -->
+        </div>
+    </div>
+
     <div class="rbt-team-area bg-color-white rbt-section-gapBottom">
         <div class="container">
             <div class="row mb--60">

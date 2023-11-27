@@ -9,13 +9,22 @@ use Illuminate\Http\Request;
 class UserController extends Controller
 {
 
+    public function index()
+    {
+        return view('user.index');
+    }
+
+    public function profile()
+    {
+        return view('user.profile');
+    }
+
     public function enrolledCourse()
     {
         $courses = Course::query()->with(['user', 'lectures', 'users'])->orderByDesc('created_at')->get();
 
         return view('user.enrolled_course', [
-            'enrolled_courses' => $courses->take(5),
-            'completed_courses' => $courses->skip(5)->take(4),
+            'courses' => $courses->take(5),
         ]);
     }
 

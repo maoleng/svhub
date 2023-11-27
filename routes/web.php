@@ -57,7 +57,9 @@ Route::group(['prefix' => 'checkout', 'as' => 'checkout.'], function () {
     Route::post('/{course}', [CheckoutController::class, 'checkout'])->name('process');
     Route::get('/success', [CheckoutController::class, 'validatePayment'])->name('success');
 });
-Route::group(['prefix' => 'user', 'as' => 'user.'], function () {
+Route::group(['prefix' => 'user', 'as' => 'user.', 'middleware' => MustLogin::class], function () {
+    Route::get('/', [UserController::class, 'index'])->name('index');
+    Route::get('/profile', [UserController::class, 'profile'])->name('profile');
     Route::get('/enrolled-course', [UserController::class, 'enrolledCourse'])->name('enrolled_course');
 });
 
