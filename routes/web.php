@@ -6,6 +6,7 @@ use App\Http\Controllers\CheckoutController;
 use App\Http\Controllers\CourseController;
 use App\Http\Controllers\ForumController;
 use App\Http\Controllers\JobController;
+use App\Http\Controllers\MentorController;
 use App\Http\Controllers\SiteController;
 use App\Http\Controllers\UserController;
 use App\Http\Middleware\App\TeacherRole;
@@ -49,6 +50,9 @@ Route::group(['prefix' => 'forum', 'as' => 'forum.'], function () {
 Route::group(['prefix' => 'job', 'as' => 'job.'], function () {
     Route::get('/', [JobController::class, 'index'])->name('index');
     Route::get('/{slug}', [JobController::class, 'show'])->name('show');
+});
+Route::group(['prefix' => 'mentor', 'as' => 'mentor.'], function () {
+    Route::get('/', [MentorController::class, 'index'])->name('index');
 });
 Route::group(['prefix' => 'lecture', 'as' => 'lecture.'], function () {
     Route::get('/create', [LectureController::class, 'create'])->name('create');

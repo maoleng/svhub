@@ -67,6 +67,10 @@
                             </li>
 
                             <li class="with-megamenu">
+                                <a href="{{ route('mentor.index') }}">Mentor</a>
+                            </li>
+
+                            <li class="with-megamenu">
                                 <a href="{{ route('forum.index') }}">Forum</a>
                             </li>
 
