@@ -18,11 +18,17 @@ class ForumController extends Controller
 
     public function __construct()
     {
-        $this->client = new Client(['headers' => [
-            'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
-            'Accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
-            'Accept-Language' => 'en-US,en;q=0.5',
-        ]]);
+        $this->client = new Client([
+            'headers' => [
+                'User-Agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36',
+                'Accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,*/*;q=0.8',
+                'Accept-Language' => 'en-US,en;q=0.5',
+                'Accept-Encoding' => 'gzip, deflate, br',
+                'Cache-Control' => 'max-age=0'
+            ],
+            'allow_redirects' => ['track_redirects' => true],
+            'debug' => true,
+        ]);
         $this->faker = Faker::create('vi');
         $this->tr = new GoogleTranslate;
         $this->tr->setSource();
@@ -43,6 +49,8 @@ class ForumController extends Controller
 
     private function getPosts($url): array
     {
+//        $response = $this->client->get($url);
+//        dd($response);
         $response = $this->client->get($url)->getBody()->getContents();
         preg_match_all('/<a href="\/t\/.*" class data-tp-primary="on" .*a>/U', $response, $hrefs);
 
