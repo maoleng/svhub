@@ -39,7 +39,7 @@ class ForumController extends Controller
     {
         $d_posts = Post::query()->paginate();
         $q = $request->get('q');
-        $url = isset($q) ? "https://voz.vn/f/$q" : 'https://voz.vn/whats-new/posts/10778607/';
+        $url = $q ?? 'main';
         $posts = $this->getPosts($url);
 
         return view('forum.index', [
@@ -50,9 +50,7 @@ class ForumController extends Controller
 
     private function getPosts($url): array
     {
-//        $response = $this->client->get($url);
-//        dd($response);
-        $response = $this->client->get($url)->getBody()->getContents();
+        $response = file_get_contents("assets/html/$url.html");
         preg_match_all('/<a href="\/t\/.*" class data-tp-primary="on" .*a>/U', $response, $hrefs);
 
         $posts = [];
