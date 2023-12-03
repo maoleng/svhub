@@ -7,7 +7,7 @@ use BenSampo\Enum\Enum;
 
 final class PostTag extends Enum
 {
-    #[Description('CLUB')]
+    #[Description('https://voz.vn/f/chuyen-tro-linh-tinh.17/')]
     public const CLUB = 0;
     #[Description('Workshop')]
     public const WORKSHOP = 1;

@@ -89,42 +89,111 @@
         </div>
     </div>
 
-    <div class="rbt-blog-area rbt-section-overlayping-top rbt-section-gapBottom">
+    <div class="rbt-section-overlayping-top rbt-section-gapBottom">
         <div class="container">
+            <div class="row row--30 gy-5">
 
-            <div class="row g-5">
+                <div class="col-lg-8">
+                    <div class="row g-5">
 
-                @foreach ($posts as $post)
-                    <div class="col-lg-4 col-md-6 col-sm-12 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
-                    <div class="rbt-card variation-02 rbt-hover card-minimal">
-                        <div class="rbt-card-body">
-                            <ul class="meta-list justify-content-start mb--30">
-                                <li class="list-item">
-                                    <i class="feather-clock"></i>
-                                    <span></span>
-                                </li>
-                            </ul>
-                            <h4 class="rbt-card-title"><a href="{{ route('forum.show', ['slug' => $post->slug]) }}">{{ $post->title }}</a></h4>
-                            <ul class="blog-meta">
-                                <li><i class="feather-user"></i> {{ $post->user->name }}</li>
-                                <li><i class="feather-clock"></i> {{ $post->prettyCreatedAt }}</li>
-                                <li><i class="feather-tag"></i> 1 min read</li>
-                            </ul>
-                            <div class="rbt-card-bottom mt--40">
-                                <a class="transparent-button" href="blog-details.html">Learn More<i><svg width="17" height="12" xmlns="http://www.w3.org/2000/svg"><g stroke="#27374D" fill="none" fill-rule="evenodd"><path d="M10.614 0l5.629 5.629-5.63 5.629"/><path stroke-linecap="square" d="M.663 5.572h14.594"/></g></svg></i></a>
+                    @foreach ($posts as $post)
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-12" data-sal-delay="150" data-sal="slide-up" data-sal-duration="800">
+                        <div class="rbt-card variation-02 rbt-hover card-minimal">
+                            <div class="rbt-card-body">
+
+                                <h4 class="rbt-card-title"><a href="{{ route('forum.show', ['slug' => $post['path']]) }}">{{ $post['title'] }}</a></h4>
+                                <ul class="blog-meta">
+                                    <li><i class="feather-user"></i> {{ $post['author'] }}</li>
+                                    <li><i class="feather-clock"></i> {{ $post['created_at']->format('d-m-Y') }}</li>
+                                    <li><i class="feather-tag"></i> {{ random_int(2, 5) }} mins read</li>
+                                </ul>
+                                <div class="rbt-card-bottom mt--40">
+                                    <a class="transparent-button" href="blog-details.html">Learn More<i><svg width="17" height="12" xmlns="http://www.w3.org/2000/svg"><g stroke="#27374D" fill="none" fill-rule="evenodd"><path d="M10.614 0l5.629 5.629-5.63 5.629"/><path stroke-linecap="square" d="M.663 5.572h14.594"/></g></svg></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    @endforeach
                 </div>
-                @endforeach
-            </div>
 
-            <div class="row">
-                <div class="col-lg-12 mt--60">
-                    {{ $posts->links('vendor.pagination.custom-paginate') }}
+                <div class="row">
+                    <div class="col-lg-12 mt--60">
+                        {{ $d_posts->links('vendor.pagination.custom-paginate') }}
+                    </div>
                 </div>
-            </div>
+                </div>
+            <div class="col-lg-4">
+                <aside class="rbt-sidebar-widget-wrapper rbt-gradient-border">
+                    <!-- Start Widget Area  -->
+                    <div class="rbt-single-widget rbt-widget-recent">
+                        <div class="inner">
+                            <h4 class="rbt-widget-title">Trending</h4>
+                            <ul class="rbt-sidebar-list-wrapper recent-post-list">
+                                <li>
+                                    <div class="content">
+                                        <h6 class="title fs-2"><a href="?q=tu-van-cau-hinh.70">Configuration consulting</a></h6>
+                                        <ul class="rbt-meta">
+                                            <li><i class="feather-clock"></i>Popular topic in Vietnam</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content">
+                                        <h6 class="title fs-2"><a href="?q=tuyen-dung-tim-viec.95">Recruitment - Find jobs</a></h6>
+                                        <ul class="rbt-meta">
+                                            <li><i class="feather-clock"></i>Popular topic in Vietnam</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content">
+                                        <h6 class="title fs-2"><a href="?q=ngoai-ngu.90">Foreign Language</a></h6>
+                                        <ul class="rbt-meta">
+                                            <li><i class="feather-clock"></i>Popular topic in Vietnam</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content">
+                                        <h6 class="title fs-2"><a href="?q=kinh-te-luat.92">Economic / Law</a></h6>
+                                        <ul class="rbt-meta">
+                                            <li><i class="feather-clock"></i>Business & Finance · Featured</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="content">
+                                        <h6 class="title fs-2"><a href="?q=make-money-online.93">Make Money Online</a></h6>
+                                        <ul class="rbt-meta">
+                                            <li><i class="feather-clock"></i>Business & Finance · Featured</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
+                    <!-- Start Widget Area  -->
+                    <div class="rbt-single-widget rbt-widget-tag">
+                        <div class="inner">
+                            <h4 class="rbt-widget-title">Tags</h4>
+                            <div class="rbt-sidebar-list-wrapper rbt-tag-list">
+                                <a href="#">Training</a>
+                                <a href="#">Courses</a>
+                                <a href="#">Learn</a>
+                                <a href="#">English</a>
+                                <a href="#">Online</a>
+                                <a href="#">Kids</a>
+                                <a href="#">Economic</a>
+                                <a href="#">Math</a>
+                                <a href="#">Marketing</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Widget Area  -->
+                </aside>
+            </div>
+            </div>
         </div>
     </div>
 
