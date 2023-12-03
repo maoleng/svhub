@@ -26,6 +26,7 @@ class ForumController extends Controller
                 'Accept-Encoding' => 'gzip, deflate, br',
                 'Cache-Control' => 'max-age=0'
             ],
+            'verify' => false,
             'allow_redirects' => ['track_redirects' => true],
             'debug' => true,
         ]);
